@@ -1,0 +1,296 @@
+body {
+	margin:  0;
+	padding: 0;
+	background: #333333;
+	font: normal small Tahoma, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+/* Header */
+
+#header {
+	width: 100vw;
+	height: 20vh;
+    background: #c2c2a3;
+}
+
+#sideMenu {
+	float: left;
+	padding: 4% 10% 1% 2%;
+}
+
+#sideMenu span {
+	font-size: 3em;
+    color: #97970c;
+    text-decoration: none;
+}
+
+#pageTitle {
+    float: left;
+    width: 50vw;
+	padding: 1% 1% 0% 15%;
+}
+
+#pageTitle h1 {
+    color: #990000;
+	font-size: 4em;
+}
+
+#pageLogo {
+    float: right; 
+    padding: 0 .5vw 0 0; 
+}
+
+#pageLogo img{
+    width: 10vw;
+    height: 19vh;
+    border: .5%;
+    border-style: solid; 
+    border-radius: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5%;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 3em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    background-color: antiquewhite;
+    color: #f56666;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* Content */
+
+/* Image Area */
+/* Image Area */
+ 
+
+#imageArea {
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border-width: 8vh 3vh 3vh 3vh;
+    border-style: solid;
+    border-color:#c2c2a3; 
+}
+#firstImage {
+    width: 100%;
+    height: 100%;
+    border-width: 0 0 3vh 0;
+    border-style: solid;
+    border-color:#c2c2a3;
+    position: relative;
+    overflow: hidden;
+}
+#firstImagetext {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+  }
+.shopItem a {
+	display: block;
+	width: 10vw;
+	height: 10vh;
+    padding-top: 1%; 
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: -1px;
+	font-family: "Arial";
+	font-size: 3em;
+	color:   hsl(78, 70%, 48%);
+}
+.shopItem a:hover {
+    border-radius: 5%;
+    color: #f56666;
+	background-color: #66ff66;
+} 
+#firstImagetext2 {
+    position: absolute;
+    top: 55%;
+    right: 5%;
+  }
+.shopItemtext {
+	display: block;
+	width: 10vw;
+	height: 1vh;
+    padding-top: 1%; 
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: -1px;
+	font-family: "Arial";
+	font-size: 200%;
+	color:   #030303;
+}
+.highlightText {
+    display: block;
+	width: 10vw;
+	height: 1vh;
+    padding-top: 1%; 
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: -1px;
+	font-family: "Times New Roman";
+	font-size: 200%;
+	color:   #030303;
+}
+
+#secondImage {
+    float: left;
+    width: 48.8%;
+    height: 100%;
+    border-width: 0 3vh 0 0;
+    border-style: solid;
+    border-color:#c2c2a3;
+    position: relative;
+    overflow: hidden;
+}
+#secondImagetext {
+    position: absolute;
+    bottom: 0%;
+    right: 0%
+  }
+#thirdImage {
+    float: right;
+    width: 48.8%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#thirdImagetext {
+    position: absolute;
+    bottom: 0%;
+    right: 0%
+  }
+#fourthImage {
+    width: 100%;
+    height: 100%;
+    border-width: 3vh 0 0 0;
+    border-style: solid;
+    border-color:#c2c2a3;
+    position: relative;
+    overflow: hidden;
+}
+#fourthImagetext {
+    position: absolute;
+    bottom: 0%;
+    right: 39.5%;
+}
+#fourthImagetext2 {
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    bottomL: 0%;
+    left: 60.5%;
+    right: 0%; 
+}
+.exploreMore {
+    border-width: 2vh 2vh 2vh 2vh;
+    border-style: solid;
+    border-color:#6d7541;
+    background-color:#6d7541;
+}
+.exploreMore a {
+    padding: 25% 1% 30% 1%;
+    text-decoration: none;
+    font-size: 5em;
+    color: antiquewhite;
+    display: block; 
+}
+.exploreMore a:hover {
+    background-color:#102b30; 
+    color:#e76b18;
+    border-color:#3bc5dd;
+}
+/* Footer */
+#footer {
+        margin-top:-2%;
+        background: #0b4b45;
+  }
+#footerName{
+    font-family: 'Arial'; 
+    padding-top: 42px;
+    font-size: 300%;
+} 
+.footerNav{
+    overflow: hidden;
+    display: block;
+    padding: 0% 0%;
+    height: 14%;
+    width: 100%;
+  }
+.footerNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 1% 1.4% ;
+    text-decoration: none;
+    font-size: 100%;
+    font-family: arial; 
+}
+.footerNav a:hover {
+    background-color: antiquewhite;
+    color: #f56666;
+}
+
+@media only screen and (max-width: 600px) {
+    #sideMenu {
+        float: left;
+        padding: 5% 1% 1% 2%;
+    }
+    
+    #sideMenu span {
+        font-size: 3em;
+        color: #97970c;
+        text-decoration: none;
+    }
+    
+    #pageTitle {
+        float: left;
+        width: 85vw;
+        padding: 1% 1% 1% 4%;
+    }
+    
+    #pageTitle h1 {
+        color: #990000;
+        font-size: 3em;
+    }
+    #pageLogo {
+        float: right; 
+        visibility: hidden;
+        padding: 0 .5vw 0 0; 
+    }
+    
+    #pageLogo img{
+        width: 10vw;
+        height: 19vh;
+        border: .5%;
+        border-style: solid; 
+        border-radius: 100%;
+    }
+}
+
